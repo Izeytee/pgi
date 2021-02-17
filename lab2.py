@@ -19,4 +19,6 @@ for line in range(height):
 newMatrix = upperLine + newMatrix + bottomLine
 newImg = Image.new('RGB', (width + 30, height + 30))
 newImg.putdata(newMatrix)
-newImg.save("res.bmp")  
+newImg.save("res.bmp") 
+newImg.show()
+

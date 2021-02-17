@@ -12,3 +12,4 @@ for col in range(width):
 newImg = Image.new('RGB', (height, width))
 newImg.putdata(newMatrix)
 newImg.save("res.bmp")  
+newImg.show()
